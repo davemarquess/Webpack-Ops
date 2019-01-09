@@ -5,15 +5,22 @@ WebpackOps is a Webpack bundle optimization and visualization tool that helps de
 
 ![](ezgif.com-video-to-gif.gif)
 
-- log in to a protected page
-- retrieve and display a list of tasks from a database
-- add new tasks to the database
-- delete tasks from the database
+## Installation
 
+**Clone** or **Download** the repository
+Run **npm install** to download all required libraries.
+```
+npm install
+```
+Run **npm start** to start the application.
+```
+npm start
+```
 
+Download and install WebpackOps for Mac or Windows, and launch the application: http://www.webpackops.com.
 
-## Important Notes for Us to Test Your Application
-You are not given any code to test your application, but we will run tests on your Pull Request. In order for these tests to run properly, please adhere to the following:
+## Usage
+Install WebpackOps and launch the application.
 
 - While you are free to add any additional files you want, **do not edit the file structure or delete existing files**
 - Likewise you can add additional HTML elements, IDs, and classes, but **do not remove existing hardcoded HTML elements/attributes**
