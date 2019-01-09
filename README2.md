@@ -7,7 +7,8 @@ WebpackOps is a Webpack bundle optimization and visualization tool that helps de
 
 ## Installation
 
-**Clone** or **Download** the repository
+**Clone** or **Download** the repository.
+
 Run **npm install** to download all required libraries.
 ```
 npm install
