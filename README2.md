@@ -46,3 +46,11 @@ WebpackOps has three tabs - *Home*, *Plugins*, and *Webpack Config*. Below, plea
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 - [D3](https://github.com/d3/d3)
 - [Jest](https://github.com/facebook/jest)
+
+## Authors
+- Hei Yeung Lam (https://github.com/heiyeunl)
+- Dave Marquess (https://github.com/davemarquess)
+- Tony Hudgins (https://github.com/Tonyhudgins)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
