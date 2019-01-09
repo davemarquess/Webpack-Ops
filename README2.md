@@ -7,38 +7,36 @@ WebpackOps is a Webpack bundle optimization and visualization tool that helps de
 
 ## Installation
 
-**Clone** or **Download** the repository.
+**1.** Clone or Download the repository.
+```
+git clone https://github.com/CatSnake11/Webpack-Optimizer.git
+```
 
-Run **npm install** to download all required libraries.
+**2.** Go to your terminal and run the following commands to download all required libraries:
 ```
 npm install
-```
-Run **npm start** to start the application.
-```
+npm run webpack
 npm start
 ```
 
 Download and install WebpackOps for Mac or Windows, and launch the application: http://www.webpackops.com.
 
 ## Usage
-Install WebpackOps and launch the application.
+WebpackOps has 3 tabs - Home, Plugins, and Webpack Config. Below, please find instructions on how to use each tab:
 
-- While you are free to add any additional files you want, **do not edit the file structure or delete existing files**
-- Likewise you can add additional HTML elements, IDs, and classes, but **do not remove existing hardcoded HTML elements/attributes**
-- If you are told to send or display a certain string or to name a file or function a certain name, copy-paste the string **exactly** as it is shown. Alternate text or differing capitalization will fail the tests
-- Run your server and test out your application before submitting! Even if things are not working 100% correctly, you should be able to catch and remove any syntax or reference errors just by running your application
-- Testing your database work requires somewhat odd syntax. **Pay careful attention to the notes regarding this below!**
-- You are free to edit the stylesheet as you please!
+**Home**
+- Select your `package.json` file by clicking the "Find Package.JSON" button and selecting your `package.json` file.
+- Select desired build configuration and click "Select Config" button.
+- Click "Load Stats File" button and select the `stats.json` file that was generated in your local repository.
+- Enjoy! You can now analyze your Webpack bundle in the four charts that are provided - Sunburst, Zoomable Sunburst, Treemap, and Zoomable Treemap.
 
+**Plugins**
+- Once you have loaded your `package.json` and `stats.json` files on the Home tab, select the plugins you would like to install in your Webpack bundle.
+- Click the "Install" button to install plugins and display a visual representation of the reduction in your bundle size.
 
-
-## Serving the files
-For this part you will be editing the `server/server.js` file.
-- [ ] Create a Node.js HTTP server that listens on port 3333. (You may use Express if you'd like, but it is not necessary.)
-- [ ] When you visit `http://localhost:3333/` in the browser, it should serve the `index.html` file from the `views` folder. This is the login page for the application.
-- [ ] When you visit `http://localhost:3333/secret` in the browser, you should render the `secret.html` file from the `views` folder. This is the To-Do application
-- [ ] You should also serve the CSS and JS that the html files are requesting. These are located in the `assets` folder. Make sure the `Content-Type` header is getting properly set in the HTTP response. (Some methods from some frameworks infer the content type from the file extension and set the header automatically.)
-
+**Webpack Config**
+- Generate a custom `webpack.config` file for your project. First, click the "Select" button to select your local repository where you would like to generate your `webpack.config` file.
+- Select languages, libraries, frameworks you would like to add to your `webpack.config`. You can preview what your config will look like in the text window below. Once you have selected all desired features, click "Create Webpack Config File" to generate a new `webpack.config` file in your local repository.
 
 
 ## Task Database
