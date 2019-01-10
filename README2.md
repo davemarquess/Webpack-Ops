@@ -35,7 +35,7 @@ WebpackOps has three tabs - *Home*, *Plugins*, and *Webpack Config*. Below, plea
 - Click the "Preview Config" button to preview your `webpack.config` file with selected plugins.
 - Click the "Show Size Change" button to display a visual representation of your bundle size reduction.
 
-![](ezgif.com-video-to-gif2)
+![](ezgif.com-video-to-gif2.gif)
 
 **Webpack Config**
 - This tab will guide you in generating a custom `webpack.config` file for your project.  First, click the "*Select*" button to select your local repository where you would like to generate your `webpack.config` file.
