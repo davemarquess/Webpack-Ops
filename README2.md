@@ -32,7 +32,8 @@ WebpackOps has three tabs - *Home*, *Plugins*, and *Webpack Config*. Below, plea
 
 **Plugins**
 - Once you have loaded your `package.json` and `stats.json` files on the Home tab, select the plugins you would like to install in your Webpack bundle.
-- Click the "Install" button to install plugins and display a visual representation of the reduction in your bundle size.
+- Click the "Preview Config" button to preview your `webpack.config` file with selected plugins.
+- Click the "Show Size Change" button to display a visual representation of the reduction in your bundle size.
 
 **Webpack Config**
 - Generate a custom `webpack.config` file for your project. First, click the "Select" button to select your local repository where you would like to generate your `webpack.config` file.
