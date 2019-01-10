@@ -12,7 +12,7 @@ WebpackOps is a Webpack bundle optimization and visualization tool that helps de
 git clone https://github.com/CatSnake11/Webpack-Optimizer.git
 ```
 
-**2.** Go to your terminal and run the following commands to download all required libraries:
+**2.** Open the repository, go to your terminal and run the following commands to download all required libraries:
 ```
 npm install
 npm run webpack
