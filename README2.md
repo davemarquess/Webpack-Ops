@@ -36,9 +36,9 @@ WebpackOps has three tabs - *Home*, *Plugins*, and *Webpack Config*. Below, plea
 - Click the "Show Size Change" button to display a visual representation of your bundle size reduction.
 
 **Webpack Config**
-- This tab will guide you in generating a custom `webpack.config` file for your project. 
-First, click the "Select" button to select your local repository where you would like to generate your `webpack.config` file.
-- Select languages, libraries, frameworks you would like to add to your `webpack.config`. You can preview what your config will look like in the text window below. Once you have selected all desired features, click "Create Webpack Config File" to generate a new `webpack.config` file in your local repository.
+- This tab will guide you in generating a custom `webpack.config` file for your project.  First, click the "*Select*" button to select your local repository where you would like to generate your `webpack.config` file.
+- Next, select the languages, libraries, and frameworks you would like to add to your `webpack.config`. You can preview what your config will look like in the text window on the right. 
+- Once you have selected all desired features, click "Create Webpack Config File" to generate a new `webpack.config` file in your local repository.
 
 
 ## Built With
