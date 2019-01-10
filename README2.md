@@ -42,6 +42,7 @@ WebpackOps has three tabs - *Home*, *Plugins*, and *Webpack Config*. Below, plea
 - Next, select the languages, libraries, and frameworks you would like to add to your `webpack.config`. You can preview what your config will look like in the text window on the right. 
 - Once you have selected all desired features, click "Create Webpack Config File" to generate a new `webpack.config` file in your local repository.
 
+![](ezgif.com-video-to-gif3.gif)
 
 ## Built With
 - [React](https://github.com/facebook/react)
