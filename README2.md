@@ -31,6 +31,7 @@ WebpackOps has three tabs - *Home*, *Plugins*, and *Webpack Config*. Below, plea
 - Enjoy! You can now analyze your Webpack bundle in the four charts that are provided - Sunburst, Zoomable Sunburst, Treemap, and Zoomable Treemap.
 
 **Plugins**
+![](ezgif.com-video-to-gif.gif)
 - Once you have loaded your `package.json` and `stats.json` files on the *Home* tab, select the plugins you would like to install in your Webpack bundle.
 - Click the "Preview Config" button to preview your `webpack.config` file with selected plugins.
 - Click the "Show Size Change" button to display a visual representation of your bundle size reduction.
