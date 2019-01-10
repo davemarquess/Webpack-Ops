@@ -1,7 +1,7 @@
 # WebpackOps
 
 
-WebpackOps is a Webpack bundle optimization and visualization tool that helps developers lower the size of their Webpack bundle through customized plugin selection and Webpack.config generation. Webpack Ops also allows developers to visualize their bundle assets through interactive analysis charts. 
+WebpackOps is a Webpack bundle visualization, optimization and customization tool that helps developers streamline the size of their webpack bundle through customized plugin selection and webpack config file generation. Webpack Ops also allows developers to visualize their bundle assets through interactive analysis charts. 
 
 ![](ezgif.com-video-to-gif.gif)
 
